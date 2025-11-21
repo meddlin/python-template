@@ -31,3 +31,13 @@ GitHub Actions for PyPi Distribution
 ### Install modules in development mode
 
 `pip install -e .`
+
+## Repo Protections
+
+Consider the following features for hygiene and basic application security:
+
+- branch protection
+- Dependency Graph (Settings > Security | Advanced Security > Dependency Graph)
+- Dependabot Alerts (Settings > Security | Advanced Security > Dependabot | Dependabot Alerts)
+
+- Automatically delete head branches
